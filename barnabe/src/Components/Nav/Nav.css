@@ -1,0 +1,26 @@
+.nav {
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    padding: .5rem 2rem;
+}
+
+.nav__img {
+    height: 4rem;
+}
+
+.nav__ul {
+    color: rgb(204, 204, 204);
+    display: flex;
+    font-size: .8rem;
+    gap: 2rem;
+    list-style: none;
+}
+
+.nav__ul--li {
+    cursor: pointer;
+}
+
+.nav__ul--li:hover {
+    text-decoration: underline;
+}
