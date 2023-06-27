@@ -1,0 +1,19 @@
+section {
+    display: flex;
+}
+
+.identidade__container {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.identidade__img--target {
+    height: 25rem;
+    object-fit: contain;
+}
+
+.identidade__h2 {
+    position: relative;
+    bottom: 15%;
+}
