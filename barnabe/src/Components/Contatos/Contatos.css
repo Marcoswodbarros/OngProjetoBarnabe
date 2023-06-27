@@ -1,0 +1,14 @@
+.contatos__section {
+    display: flex;
+    flex-direction: column;
+}
+
+.contatos__container {
+    align-items: center;
+    display: flex;
+    column-gap: .5rem;
+}
+
+.contatos__img {
+    height: 1rem;
+}
