@@ -1,9 +1,12 @@
 .header {
-    align-items: center;
     background-color: rgb(41, 175, 41);
+    padding-bottom: 3rem;
+}
+
+.header__container {
+    align-items: center;
     display: flex;
     flex-direction: column;
-    padding-bottom: 3rem;
 }
 
 .header__img {
