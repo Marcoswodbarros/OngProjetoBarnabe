@@ -1,17 +1,16 @@
 .contatos__section {
+    align-items: start;
+    color: white;
     display: flex;
     flex-direction: column;
-    align-items: start;
 }
 
-section h2 {
-    color: white;
+.contatos__h2 {
     height: 1rem;
 }
 
 .contatos__container {
     align-items: center;
-    color: white;
     column-gap: .5rem;
     display: flex;
     height: 3rem;

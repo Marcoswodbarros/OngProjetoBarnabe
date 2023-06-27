@@ -5,7 +5,7 @@ const Contatos = () => {
     return (
         <div>
             <section className='contatos__section'>
-                <h2>Entre em contato</h2>
+                <h2 className='contatos__h2'>Entre em contato</h2>
                 <div className='contatos__container'>
                     <img src="images/footer - whats.svg" className='contatos__img' alt="WhatsApp Icon" />
                     <p>WhatsApp: +55 81 9 8208-7727</p>
