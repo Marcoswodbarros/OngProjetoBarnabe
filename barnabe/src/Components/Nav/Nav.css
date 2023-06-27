@@ -1,8 +1,10 @@
 .nav {
     align-items: center;
+    box-sizing: border-box;
     display: flex;
     justify-content: space-between;
     padding: .5rem 2rem;
+    width: 100vw;
 }
 
 .nav__img {
