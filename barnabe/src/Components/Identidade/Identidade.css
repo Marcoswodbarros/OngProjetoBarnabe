@@ -9,8 +9,7 @@ section {
 }
 
 .identidade__img--target {
-    height: 25rem;
-    object-fit: contain;
+    width: 20rem;
 }
 
 .identidade__h2 {
