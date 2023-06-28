@@ -1,3 +1,7 @@
+.ajuda {
+    width: 25vw;
+}
+
 .ajuda__form {
     background-color: white;
     border-radius: .5rem;
@@ -5,9 +9,11 @@
     flex-direction: column;
     padding: 1.2rem;
     row-gap: .8rem;
+    width: 100%;
 }
 
-.ajuda__form {
+.ajuda__form--label {
+    text-align: start;
     font-size: 1.2rem;
 }
 
