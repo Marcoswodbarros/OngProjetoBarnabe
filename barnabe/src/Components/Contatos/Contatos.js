@@ -12,12 +12,12 @@ const Contatos = () => {
                 </div>
 
                 <div className='contatos__container'>
-                    <img src="images/footer - email.svg" className='contatos__img' alt="WhatsApp Icon" />
+                    <img src="images/footer - mail.svg" className='contatos__img' alt="WhatsApp Icon" />
                     <p>Email: contato@projetobarnabe.org.br</p>
                 </div>
 
                 <div className='contatos__container'>
-                    <img src="images/footer - whats.svg" className='contatos__img' alt="WhatsApp Icon" />
+                    <img src="images/footer - location.svg" className='contatos__img' alt="WhatsApp Icon" />
                     <p>R. Souza Bandeira, 619 - Torre, Recife - PE, 50711-050, Brasil</p>
                 </div>
             </section>
