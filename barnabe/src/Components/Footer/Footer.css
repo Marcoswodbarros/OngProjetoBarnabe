@@ -1,13 +1,18 @@
 .footer {
     background-color: darkgray;
+    display: flex;
+    flex-direction: column;
 }
 
 .footer__container {
-    display: flex;
     align-items: center;
+    display: flex;
     justify-content: space-around;
 }
 
 .footer__logo {
-    height: 4rem;
+    height: 5rem;
+    align-self: flex-start;
+    margin-left: 8vw;
+    margin-top: 2rem;
 }
