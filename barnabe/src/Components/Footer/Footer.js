@@ -2,6 +2,7 @@ import React from 'react'
 import './Footer.css'
 import Contatos from '../Contatos/Contatos'
 import Menu from '../Menu/Menu'
+import Ajuda from '../Ajuda/Ajuda'
 
 const Footer = () => {
     return (
@@ -11,6 +12,7 @@ const Footer = () => {
                 <div className='footer__container'>
                     <Contatos />
                     <Menu />
+                    <Ajuda />
                 </div>
             </footer>
         </div>
