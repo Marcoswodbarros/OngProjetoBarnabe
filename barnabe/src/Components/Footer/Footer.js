@@ -3,6 +3,7 @@ import './Footer.css'
 import Contatos from '../Contatos/Contatos'
 import Menu from '../Menu/Menu'
 import Ajuda from '../Ajuda/Ajuda'
+import End from '../End/End'
 
 const Footer = () => {
     return (
@@ -14,6 +15,7 @@ const Footer = () => {
                     <Menu />
                     <Ajuda />
                 </div>
+                <End />
             </footer>
         </div>
     )

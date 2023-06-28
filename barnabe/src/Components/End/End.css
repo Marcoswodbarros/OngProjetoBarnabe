@@ -1,0 +1,19 @@
+.end {
+    align-items: center;
+    background-color: gray;
+    color: lightgray;
+    display: flex;
+    font-size: .8rem;
+    justify-content: space-between;
+    margin-top: 2rem;
+    padding: 1rem 4rem;
+}
+
+.end__container--img {
+    column-gap: .5rem;
+    display: flex;
+}
+
+.end__img {
+    height: 1rem;
+}
