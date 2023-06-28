@@ -31,8 +31,14 @@
     background-color: rgb(41, 175, 41);
     border: 1px solid black;
     border-radius: .5rem;
+    cursor: pointer;
     font-size: .9rem;
     font-weight: 700;
     padding: .5rem 0;
     width: 40%;
+}
+
+.ajuda__form--button:hover {
+    background-color: yellow;
+    transition: .5s;
 }

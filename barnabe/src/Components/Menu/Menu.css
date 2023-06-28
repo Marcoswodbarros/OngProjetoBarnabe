@@ -12,4 +12,16 @@
 .footer__menu--ul {
     list-style: none;
     padding-left: 0;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    row-gap: .3rem;
+}
+
+.footer__menu--li {
+    cursor: pointer;
+}
+
+.footer__menu--li:hover {
+    text-decoration: underline;
 }
