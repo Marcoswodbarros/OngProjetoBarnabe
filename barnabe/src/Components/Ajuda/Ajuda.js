@@ -8,7 +8,7 @@ const Ajuda = () => {
                 <form className="ajuda__form">
                     <label className="ajuda__form--label">Em que podemos ajudar?</label>
                     <input type="text" className="form__input--text" placeholder="Sua resposta" />
-                    <button>Enviar</button>
+                    <button className="ajuda__form--button">Enviar</button>
                 </form>
             </section>
 

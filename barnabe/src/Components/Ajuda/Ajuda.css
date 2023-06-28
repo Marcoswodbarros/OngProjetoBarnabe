@@ -1,10 +1,10 @@
 .ajuda__form {
     background-color: white;
-    padding: 1.2rem;
     border-radius: .5rem;
     display: flex;
     flex-direction: column;
-    row-gap: .5rem;
+    padding: 1.2rem;
+    row-gap: .8rem;
 }
 
 .ajuda__form {
@@ -13,5 +13,19 @@
 
 .form__input--text {
     border-bottom: 1px solid black;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    padding: .5rem .3rem;
     outline: none;
+}
+
+.ajuda__form--button {
+    background-color: rgb(41, 175, 41);
+    border: 1px solid black;
+    border-radius: .5rem;
+    font-size: .9rem;
+    font-weight: 700;
+    padding: .5rem 0;
+    width: 40%;
 }
