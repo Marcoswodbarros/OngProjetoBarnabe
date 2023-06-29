@@ -22,3 +22,14 @@
 .contatos__img {
     height: 1rem;
 }
+
+
+@media screen and (max-width: 1024px) {
+    .contatos__container {
+        width: 100%;
+    }
+
+    p {
+        width: 50%;
+    }
+}

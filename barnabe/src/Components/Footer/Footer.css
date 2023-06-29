@@ -11,8 +11,20 @@
 }
 
 .footer__logo {
-    height: 5rem;
     align-self: flex-start;
+    height: 5rem;
     margin-left: 8vw;
     margin-top: 2rem;
+}
+
+
+@media screen and (max-width: 1024px) {
+    .footer__container {
+        flex-direction: column;
+        row-gap: 2rem;
+    }
+
+    .footer__logo {
+        align-self: center;
+    }
 }
