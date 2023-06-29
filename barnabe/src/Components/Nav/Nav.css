@@ -25,3 +25,10 @@
 .nav__ul--li:hover {
     text-decoration: underline;
 }
+
+
+@media screen and (max-width: 1024px) {
+    .nav__ul {
+        display: none;
+    }
+}
