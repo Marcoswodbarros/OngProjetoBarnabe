@@ -27,3 +27,10 @@
     padding: .8rem 0;
     width: 30%;
 }
+
+
+@media (max-width: 1024px) {
+    .header {
+        width: 100%;
+    }
+}
