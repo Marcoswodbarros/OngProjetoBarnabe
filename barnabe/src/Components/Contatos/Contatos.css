@@ -25,11 +25,12 @@
 
 
 @media screen and (max-width: 1024px) {
-    .contatos__container {
+    .contatos__section {
+        align-items: center;
         width: 100%;
     }
 
-    p {
-        width: 50%;
+    .contatos__container {
+        height: auto;
     }
 }

@@ -42,3 +42,14 @@
     background-color: yellow;
     transition: .5s;
 }
+
+
+@media screen and (max-width: 1024px) {
+    .ajuda {
+        width: 100%;
+    }
+
+    .ajuda__form--button {
+        width: 100%;
+    }
+}
