@@ -33,4 +33,14 @@
     .header {
         width: 100%;
     }
+
+    .header__h1 {
+        font-size: 2rem;
+        width: 70%;
+    }
+
+    .header__button {
+        width: 60%;
+        font-weight: bold;
+    }
 }
