@@ -8,11 +8,27 @@ section {
     flex-direction: column;
 }
 
-.identidade__img--target {
+.identidade__img {
     width: 20rem;
 }
 
 .identidade__h2 {
     position: relative;
     bottom: 15%;
+}
+
+
+@media screen and (max-width: 1024px) {
+    section {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .identidade__container {
+        width: 80%;
+    }
+
+    .identidade__h2 {
+        margin: 0;
+    }
 }
