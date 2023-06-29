@@ -19,3 +19,17 @@
     height: 1px;
     width: 80%;
 }
+
+
+@media screen and (max-width: 1024px) {
+    .main {
+        padding-top: 0;
+    }
+
+    .main__img {
+        align-self: center;
+        height: 25rem;
+        margin-bottom: 0;
+        width: 80%;
+    }
+}
