@@ -16,6 +16,7 @@
 .header__h1 {
     color: white;
     font-size: 3rem;
+    min-width: 30rem;
     width: 40%;
 }
 
@@ -36,11 +37,14 @@
 
     .header__h1 {
         font-size: 2rem;
+        min-width: 10rem;
+        max-width: 20rem;
         width: 70%;
     }
 
     .header__button {
-        width: 60%;
         font-weight: bold;
+        max-width: 20rem;
+        width: 60%;
     }
 }

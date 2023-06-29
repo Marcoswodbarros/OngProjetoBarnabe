@@ -23,8 +23,4 @@
         flex-direction: column;
         row-gap: 2rem;
     }
-
-    .footer__logo {
-        align-self: center;
-    }
 }
