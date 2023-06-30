@@ -52,25 +52,25 @@
     }
     
     .nav__ul {
-        text-transform: uppercase;
-        font-weight: bold;
-        row-gap: 1rem;
-        padding: .8rem 0 .8rem;
         background-color: white;
-        position: absolute;
         flex-direction: column;
         left: 50%;
+        padding: .8rem 0 .8rem;
+        position: absolute;
+        row-gap: 1rem;
         top: 8%;
         transform: translate(-50%);
         width: 100%;
-        color: black;
-        font-size: 1rem;
     }
-
+    
     .nav__ul--li {
         border-bottom: 1px solid green;
-        padding-bottom: .8rem;
+        color: black;
+        font-size: 1rem;
+        font-weight: bold;
         margin-bottom: 0;
+        padding-bottom: .8rem;
+        text-transform: uppercase;
     }
 
     .hamburger {
