@@ -13,6 +13,12 @@ const Nav = () => {
                 <li className='nav__ul--li'>Quero ajudar!</li>
                 <li className='nav__ul--li'>Fale conosco!</li>
             </ul>
+
+            <div className="hamburger">
+              <span className='bar'></span>
+              <span className='bar'></span>
+              <span className='bar'></span>
+            </div>
         </nav>
     </div>
   )

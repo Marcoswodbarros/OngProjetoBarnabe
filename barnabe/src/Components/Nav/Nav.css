@@ -27,9 +27,25 @@
 }
 
 
+.hamburger {
+    display: none;
+    cursor: pointer;
+}
+
+.bar {
+    display: block;
+    width: 25px;
+    height: 3px;
+    margin: 5px auto;
+    -webkit-transition: all .3s ease-in-out;
+    transition: all .3s ease-in-out;
+    background-color: white;
+}
+
 @media screen and (max-width: 1024px) {
     .nav {
-        padding: .5rem 1rem 3rem;
+        padding: 1rem 1rem 3rem;
+        transition: .3s;
     }
 
     .nav__img {
@@ -38,5 +54,19 @@
     
     .nav__ul {
         display: none;
+    }
+
+    .hamburger {
+        display: block;
+    }
+
+    .hamburger.active .bar:nth-child(2) {
+        opacity: 0;
+    }
+    .hamburger.active .bar:nth-child(1) {
+        transform: translateY(8px) rotate(45deg);
+    }
+    .hamburger.active .bar:nth-child(3) {
+        transform: translateY(-8px) rotate(-45deg);
     }
 }
