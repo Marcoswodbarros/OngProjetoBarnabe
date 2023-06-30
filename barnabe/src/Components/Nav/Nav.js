@@ -13,7 +13,7 @@ const Nav = () => {
       <nav className='nav'>
         <img src="/images/nav - logo.png" className='nav__img' alt="Projeto Barnabé Logo" />
 
-        <div className={active ? 'icon icon__active' : 'icon'}>
+        <div className={active ? 'icon icon__active' : 'icon'} onClick={toggleMode}>
           <div className="hamburger hambuger__icon"></div>
         </div>
 
