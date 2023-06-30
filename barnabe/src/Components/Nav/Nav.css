@@ -45,7 +45,6 @@
 @media screen and (max-width: 1024px) {
     .nav {
         padding: 1rem 1rem 3rem;
-        transition: .3s;
     }
 
     .nav__img {
@@ -53,20 +52,28 @@
     }
     
     .nav__ul {
-        display: none;
+        text-transform: uppercase;
+        font-weight: bold;
+        row-gap: 1rem;
+        padding: .8rem 0 .8rem;
+        background-color: white;
+        position: absolute;
+        flex-direction: column;
+        left: 50%;
+        top: 8%;
+        transform: translate(-50%);
+        width: 100%;
+        color: black;
+        font-size: 1rem;
+    }
+
+    .nav__ul--li {
+        border-bottom: 1px solid green;
+        padding-bottom: .8rem;
+        margin-bottom: 0;
     }
 
     .hamburger {
         display: block;
-    }
-
-    .hamburger.active .bar:nth-child(2) {
-        opacity: 0;
-    }
-    .hamburger.active .bar:nth-child(1) {
-        transform: translateY(8px) rotate(45deg);
-    }
-    .hamburger.active .bar:nth-child(3) {
-        transform: translateY(-8px) rotate(-45deg);
     }
 }
