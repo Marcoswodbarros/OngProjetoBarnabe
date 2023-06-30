@@ -57,7 +57,7 @@
         padding: .8rem 0 0 0;
         position: fixed;
         row-gap: 1rem;
-        top: -100%;
+        top: 8%;
         transform: translate(-50%);
         width: 100%;
     }
@@ -74,7 +74,6 @@
 
     .icon {
         cursor: pointer;
-        height: 44px;
         position: absolute;
         right: 15%;
         width: fit-content;
@@ -82,10 +81,10 @@
     }
 
     .hamburger {
-        background: #ff3300;
+        background-color: black;
         box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
         display: block;
-        height: 4px;
+        height: 3px;
         left: 10%;
         position: absolute;
         top: 50%;
@@ -94,24 +93,55 @@
     }
 
     .hamburger::before {
-        top: -12px;
-        content: '';
-        position: absolute;
-        width: 25px;
-        height: 4px;
-        background: #ff3300;
+        background-color: black;
         box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+        content: '';
+        height: 3px;
+        position: absolute;
+        top: -10px;
         transition: .5s;
+        width: 25px;
     }
 
     .hamburger::after {
-        top: 12px;
-        content: '';
-        position: absolute;
-        width: 25px;
-        height: 4px;
-        background: #ff3300;
+        background-color: black;
         box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+        content: '';
+        height: 3px;
+        position: absolute;
+        top: 10px;
         transition: .5s;
+        width: 25px;
+    }
+
+    .icon.icon__active .hamburger {
+        background: transparent;
+        box-shadow: 0 2px 5px transparent;
+    }
+
+    .icon.icon__active .hamburger::before {
+        background-color: white;
+        box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.2);
+        top: 0;
+        transform: rotate(135deg);
+    }
+
+    .icon.icon__active .hamburger::after {
+        background-color: white;
+        box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.2);
+        top: 0;
+        transform: rotate(225deg);
+    }
+
+    .menu.menu__open {
+        width: 100%;
+        height: 100vh;
+        background-color: white;
+        box-shadow: 10px 0 69px 0 rgba(0, 0, 0, .59);
+    }
+
+    .menu.menu__close {
+        display: none;
+        width: 0;
     }
 }
