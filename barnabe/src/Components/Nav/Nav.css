@@ -26,20 +26,19 @@
     text-decoration: underline;
 }
 
-
 .hamburger {
-    display: none;
     cursor: pointer;
+    display: none;
 }
 
 .bar {
+    background-color: white;
     display: block;
-    width: 25px;
     height: 3px;
     margin: 5px auto;
     -webkit-transition: all .3s ease-in-out;
     transition: all .3s ease-in-out;
-    background-color: white;
+    width: 25px;
 }
 
 @media screen and (max-width: 1024px) {
@@ -55,10 +54,10 @@
         background-color: white;
         flex-direction: column;
         left: 50%;
-        padding: .8rem 0 .8rem;
-        position: absolute;
+        padding: .8rem 0 0 0;
+        position: fixed;
         row-gap: 1rem;
-        top: 8%;
+        top: -100%;
         transform: translate(-50%);
         width: 100%;
     }
