@@ -1,5 +1,6 @@
 import React, { useState } from 'react'
 import './Nav.css'
+import { Icon } from 'react-icons-kit'
 
 const Nav = () => {
 
