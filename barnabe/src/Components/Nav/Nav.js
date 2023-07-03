@@ -20,17 +20,15 @@ const Nav = () => {
           {toggle ? <Icon icon={x} size={28} /> : <Icon icon={menu} size={28} />}
         </div>
 
-        <div className={toggle ? 'nav__ul expanded' : 'nav__ul'}>
-          <ul className='nav__ul'>
-            <li className='nav__ul--li'>Início</li>
-            <li className='nav__ul--li'>Sobre nós</li>
-            <li className='nav__ul--li'>Transparência</li>
-            <li className='nav__ul--li'>Quero ajudar!</li>
-            <li className='nav__ul--li'>Fale conosco!</li>
-          </ul>
-        </div>
-      </nav>
-    </div>
+        <ul className={toggle ? 'nav__ul expanded' : 'nav__ul'}>
+          <li className='nav__ul--li'>Início</li>
+          <li className='nav__ul--li'>Sobre nós</li>
+          <li className='nav__ul--li'>Transparência</li>
+          <li className='nav__ul--li'>Quero ajudar!</li>
+          <li className='nav__ul--li'>Fale conosco!</li>
+        </ul>
+      </nav >
+    </div >
   )
 }
 

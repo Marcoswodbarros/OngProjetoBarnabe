@@ -33,7 +33,7 @@
 
 @media screen and (max-width: 1024px) {
     .nav {
-        padding: 1rem 1rem 3rem;
+        padding: 1rem 1rem 2rem;
     }
 
     .nav__img {
@@ -45,17 +45,18 @@
     }
     
     .nav__ul {
-        background-color: white;
-        flex-direction: column;
-        left: 50%;
-        padding: .8rem 0 0 0;
-        position: fixed;
-        row-gap: 1rem;
-        top: 8%;
-        transform: translate(-50%);
-        width: 100%;
-
         display: none;
+    }
+    
+    .nav__ul.expanded {
+        background-color: white;
+        display: flex;
+        flex-direction: column;
+        height: 100vh;
+        padding: .8rem 0 0 0;
+        row-gap: 1rem;
+        transition: .5s height ease-in-out;
+        width: 100%;
     }
     
     .nav__ul--li {
