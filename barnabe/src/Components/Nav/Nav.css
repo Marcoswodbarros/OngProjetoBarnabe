@@ -44,17 +44,25 @@
         display: block;
     }
     
-    .nav__ul {
+    .nav__ul--cont {
         display: none;
     }
+
+    .nav__ul--cont.expanded {
+        display: flex;
+    }
     
-    .nav__ul.expanded {
+    .nav__ul {
         background-color: white;
         display: flex;
         flex-direction: column;
-        height: 100vh;
+        height: 100%;
+        left: 50%;
         padding: .8rem 0 0 0;
+        position: absolute;
         row-gap: 1rem;
+        top: 8%;
+        transform: translate(-50%);
         transition: .5s height ease-in-out;
         width: 100%;
     }
