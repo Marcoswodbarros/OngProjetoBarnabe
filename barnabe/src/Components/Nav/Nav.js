@@ -1,21 +1,20 @@
 import React, { useState } from 'react'
 import './Nav.css'
 import { Icon } from 'react-icons-kit'
+import {menu} from 'react-icons-kit/feather/menu'
+import {x} from 'react-icons-kit/feather/x'
 
 const Nav = () => {
 
-  const [active, setMode] = useState(false);
-  const toggleMode = () => {
-    setMode(!active);
-  }
+
 
   return (
     <div>
       <nav className='nav'>
         <img src="/images/nav - logo.png" className='nav__img' alt="Projeto Barnabé Logo" />
 
-        <div className={active ? 'icon icon__active' : 'icon'} onClick={toggleMode}>
-          <div className="hamburger hambuger__icon"></div>
+        <div className='toggle__icon'>
+          <Icon icon={menu} size={28}/>
         </div>
 
         <div className={active ? 'menu__open' : 'menu__close'}>
