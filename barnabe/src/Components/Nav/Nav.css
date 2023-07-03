@@ -10,6 +10,10 @@
     height: 4rem;
 }
 
+.toggle__icon {
+    display: none;
+}
+
 .nav__ul {
     color: rgb(204, 204, 204);
     display: flex;
@@ -26,20 +30,6 @@
     text-decoration: underline;
 }
 
-.hamburger {
-    cursor: pointer;
-    display: none;
-}
-
-.bar {
-    background-color: white;
-    display: block;
-    height: 3px;
-    margin: 5px auto;
-    -webkit-transition: all .3s ease-in-out;
-    transition: all .3s ease-in-out;
-    width: 25px;
-}
 
 @media screen and (max-width: 1024px) {
     .nav {
@@ -48,6 +38,10 @@
 
     .nav__img {
         height: 2rem;
+    }
+
+    .toggle__icon {
+        display: block;
     }
     
     .nav__ul {
@@ -60,6 +54,8 @@
         top: 8%;
         transform: translate(-50%);
         width: 100%;
+
+        display: none;
     }
     
     .nav__ul--li {
@@ -70,78 +66,5 @@
         margin-bottom: 0;
         padding-bottom: .8rem;
         text-transform: uppercase;
-    }
-
-    .icon {
-        cursor: pointer;
-        position: absolute;
-        right: 15%;
-        width: fit-content;
-        z-index: 4;
-    }
-
-    .hamburger {
-        background-color: black;
-        box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
-        display: block;
-        height: 3px;
-        left: 10%;
-        position: absolute;
-        top: 50%;
-        transition: .5s;
-        width: 20px;
-    }
-
-    .hamburger::before {
-        background-color: black;
-        box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
-        content: '';
-        height: 3px;
-        position: absolute;
-        top: -10px;
-        transition: .5s;
-        width: 25px;
-    }
-
-    .hamburger::after {
-        background-color: black;
-        box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
-        content: '';
-        height: 3px;
-        position: absolute;
-        top: 10px;
-        transition: .5s;
-        width: 25px;
-    }
-
-    .icon.icon__active .hamburger {
-        background: transparent;
-        box-shadow: 0 2px 5px transparent;
-    }
-
-    .icon.icon__active .hamburger::before {
-        background-color: white;
-        box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.2);
-        top: 0;
-        transform: rotate(135deg);
-    }
-
-    .icon.icon__active .hamburger::after {
-        background-color: white;
-        box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.2);
-        top: 0;
-        transform: rotate(225deg);
-    }
-
-    .menu.menu__open {
-        width: 100%;
-        height: 100vh;
-        background-color: white;
-        box-shadow: 10px 0 69px 0 rgba(0, 0, 0, .59);
-    }
-
-    .menu.menu__close {
-        display: none;
-        width: 0;
     }
 }
