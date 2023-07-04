@@ -44,15 +44,16 @@
         display: block;
     }
     
-    .nav__ul--cont {
+    .nav__ul--container {
         display: none;
     }
 
-    .nav__ul--cont.expanded {
+    .nav__ul--container.expanded {
         display: flex;
+        transition: .5s height ease-in-out;
     }
     
-    .nav__ul {
+    .nav__ul--container.expanded .nav__ul {
         background-color: white;
         display: flex;
         flex-direction: column;
@@ -63,7 +64,6 @@
         row-gap: 1rem;
         top: 8%;
         transform: translate(-50%);
-        transition: .5s height ease-in-out;
         width: 100%;
     }
     

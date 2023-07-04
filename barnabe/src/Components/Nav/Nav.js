@@ -20,7 +20,7 @@ const Nav = () => {
           {toggle ? <Icon icon={x} size={28} /> : <Icon icon={menu} size={28} />}
         </div>
 
-        <div className={toggle ? 'nav__ul--cont expanded' : 'nav__ul--cont'}>
+        <div className={toggle ? 'nav__ul--container expanded' : 'nav__ul--container'}>
           <ul className='nav__ul'>
             <li className='nav__ul--li'>Início</li>
             <li className='nav__ul--li'>Sobre nós</li>
