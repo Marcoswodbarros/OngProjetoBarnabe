@@ -51,20 +51,21 @@
     
     .nav__ul--container.expanded {
         background-color: white;
-        transition: .5s top ease-in-out;
         left: 50%;
+        height: 100vh;
         padding: .8rem 0 0 0;
         position: absolute;
         top: 8%;
         transform: translate(-50%);
+        transition: .5s top ease-in-out;
         width: 100%;
     }
     
     .nav__ul {
         display: flex;
         flex-direction: column;
-        row-gap: 1rem;
         padding-left: 0;
+        row-gap: 1rem;
     }
     
     .nav__ul--li {
