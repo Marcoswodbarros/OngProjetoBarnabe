@@ -55,9 +55,9 @@
         height: 100%;
         padding: .8rem 0 0 0;
         position: absolute;
-        top: 8%;
+        top: 10%;
         transform: translate(-50%);
-        transition: .5s top ease-in-out;
+        transition: .8s top ease-in-out;
         width: 100%;
     }
     
